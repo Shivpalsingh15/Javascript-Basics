@@ -3,7 +3,6 @@
 // 2 typeof data types in JS
 // Primitive      Non - primitive
 
-
 // how yo chck the data type in js 
 // 2 ways 
 let str  = '1'
