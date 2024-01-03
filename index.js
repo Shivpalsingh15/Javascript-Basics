@@ -106,7 +106,7 @@ console.log(arr1.length ? true : false) // false
 // empty obj is also true ALSO !!
 
 // why empty [] is  truthy 
-// bczo it is non promitive adarta type and they are called as refrenence data type 
+// bczo it is non promitive data- type and they are called as refrenence data type 
 // they store the address they are not counted as value 
 // this is one if the difference between primitive & non primitive data type 
 // empty string is false as js is checking the value but [] is true as js is checking not value but as refrence (adddress )

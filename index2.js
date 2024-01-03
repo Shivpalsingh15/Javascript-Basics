@@ -5,7 +5,7 @@ let str1  = `shiv is good boy1`
 // console.log('str1:', str1)
 
 // actually there is no such differ in seeing it
-// but we use tmeplate litera to use any value / variable in between string
+// but we use temeplate literal to use any value / variable in between string
 
 let name2  = 'Nilesh'
 let place = 'indore'
