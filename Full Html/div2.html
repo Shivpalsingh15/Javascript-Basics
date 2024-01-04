@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      margin: 5px;
+    }
+    .main {
+      border: 2px solid red;
+      height: 10vh;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .child {
+      border: 2px solid green;
+      height: 50%;
+      width: 20%;
+      margin: 5px;
+    }
+    #one {
+      order: 2;
+      flex-grow: 2;
+    }
+    #two {
+      order: 3;
+    }
+    #three {
+      order: 4;
+      flex-grow: 1;
+    }
+    #four {
+      order: 1;
+      /* flex-grow: 2; */
+      flex-basis: 50%;
+    }
+    .main2 {
+      border: 2px solid rgb(0, 0, 0);
+      height: 50vh;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      margin-top: 5px;
+    }
+
+    .profile {
+      grid-column-start: 2;
+      border: 2px dashed rgb(0, 255, 149);
+      height: 20vh;
+      width: 40vh;
+    }
+
+    .img {
+      grid-column-start: 2;
+      border: 2px dashed rgb(0, 255, 149);
+      height: 20vh;
+      width: 40vh;
+    }
+
+    .Details {
+      grid-column-start: 3;
+      grid-row-start: 1;
+      border: 2px dashed rgb(0, 255, 149);
+      height: 20vh;
+      width: 40vh;
+    }
+
+    .Address {
+      grid-column-start: 3;
+      border: 2px dashed rgb(0, 255, 149);
+      height: 20vh;
+      width: 40vh;
+    }
+  </style>
+  <body>
+    <div class="main">
+      <div class="child" id="one">1</div>
+      <div class="child" id="two">2</div>
+      <div class="child" id="three">3</div>
+      <div class="child" id="four">4</div>
+      <!-- <div class="child" id="five">5</div> -->
+    </div>
+    <div class="main2">
+      <div class="profile">profile</div>
+      <div class="img">img</div>
+      <div class="Details">Details</div>
+      <div class="Address">Address</div>
+    </div>
+  </body>
+</html>
+
+<script src="index.js"></script>

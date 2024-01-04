@@ -1,0 +1,22 @@
+/* body{
+    margin: 0;
+    padding: 0;
+}
+
+ul, li{
+    list-style: none;
+    display: flex;
+    padding: 2px;
+    margin-right: 5px;
+    background-color: antiquewhite;
+    font-size: large;
+    font-weight: bold;
+    justify-content: center;
+    
+}
+#moon{
+    width: 20px;
+    height: auto;
+    float: right;
+   
+} */

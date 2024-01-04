@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .main {
+      border: 2px solid green;
+      display: flex;
+      height: 380px;
+      width: 90%;
+      margin: 0;
+      background-color: blanchedalmond;
+      /* justify-content: space-evenly; */
+      /* align-items: center; */
+      /* align-content: flex-end; */
+      
+      /* flex-direction: column-reverse; */
+      /* background-color: antiquewhite; */
+    }
+    .child {
+      width: 20%;
+      height: 80px;
+      border: 2px solid green;
+      margin: 5px;
+      background-color: rgb(199, 70, 0);
+      text-align: center;
+      
+
+      /* flex-direction: column; */
+    }
+    #three{
+        /* flex-shrink: 1; */
+        order: 3;
+        flex-basis: 130px;
+    }
+    #one{
+        /* flex-shrink: 1; */
+        order: 2;
+        align-self: center;
+
+    }
+    #two{
+        /* flex-shrink: 3; */
+        order: 1;
+        align-self: flex-start;
+
+    }
+    #four{
+        order: 4;
+        flex-basis: 450px;
+        align-self: flex-end;
+
+
+    }
+  </style>
+  <body>
+    <div class="main">
+      <div class="child" id="one">1</div>
+      <div class="child" id="two">2</div>
+      <div class="child" id="three">3</div>
+      <div class="child" id="four">4</div>
+      
+    </div>
+  </body>
+</html>
