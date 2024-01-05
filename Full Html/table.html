@@ -5,29 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table</title>
     <style>
-        body{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border: 3px dotted rgb(18, 41, 18);
-            height: 100vh;
-            margin: 0;
-            padding: 0;
-        }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 3px dotted rgb(18, 41, 18); */
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        color: rgb(27, 110, 169);
+      }
 
-        table, th, td{
-            border: 2px solid brown;
-            padding: 5px;
-            height: 70%;
-        }
-        td{
-            text-align: center;
-        }
+      table
+       {
+        border: 2px solid brown;
+        padding: 5px;
+        height: 80px;
+        background-color: cadetblue;
+        width: 150px;
+      }
+      thead{
+        
+        border: 1px solid green;
+        background-color: aqua;
+        
+      }
+      tbody{
+
+        width: 20%;
+        height: 50px;
+      }
+      td {
+        text-align: center;
+        border: 1px solid green;
+        padding: 15px;
+        background-color: aliceblue;
+       
+
+      }
     </style>
   </head>
   <body>
     <div>
-      <table>
+      <!-- <table>
         <thead>
           <tr>
             <th>First</th>
@@ -61,6 +81,27 @@
             <td>1</td>
             <td>2</td>
             <td>3</td>
+          </tr>
+        </tbody>
+      </table> -->
+
+      <table>
+        <thead>
+          <tr>
+            <td>Brand</td>
+            <td>Model</td>
+            <td>Color</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mercedes</td>
+          <td>2021</td>
+          <td>black</td></tr>
+          <tr>
+            <td>Bmw</td>
+            <td>2022</td>
+            <td>red</td>
           </tr>
         </tbody>
       </table>
